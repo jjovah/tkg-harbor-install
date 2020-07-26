@@ -21,17 +21,17 @@
 # defaults install.sh should pass correct
 
 if [[ -z "${REPO}" ]]; then
-  REPO="harbor.vmwarelab.edu"
+  REPO="harbor.hol2086-02.pocs.vmware-nfv.rocks"
 else
   REPO="${REPO}"
 fi
 if [[ -z "${DNS}" ]]; then
-  DNS="172.16.254.201"
+  DNS="10.246.130.254"
 else
   DNS="${DNS}"
 fi
 if [[ -z "${DOMAIN}" ]]; then
-  DOMAIN="vmwarelab.edu"
+  DOMAIN="harbor.hol2086-02.pocs.vmware-nfv.rocks"
 else
   DOMAIN="${DOMAIN}"
 fi
