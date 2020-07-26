@@ -19,7 +19,7 @@
 #
 # defaults install.sh should pass correct
 if [[ -z "${REPO}" ]]; then
-  REPO="harbor.vmwarelab.edu"
+  REPO="harbor.hol2086-02.pocs.vmware-nfv.rocks"
 else
   REPO="${REPO}"
 fi
